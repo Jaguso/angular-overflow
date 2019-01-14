@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 
 // Material Angular
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatCheckboxModule } from '@angular/material';
+import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -16,8 +16,7 @@ import { MatButtonModule, MatCheckboxModule } from '@angular/material';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule,
-    MatCheckboxModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

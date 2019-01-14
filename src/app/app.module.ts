@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 // Material Angular
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
+import 'hammerjs';
 
 @NgModule({
   declarations: [

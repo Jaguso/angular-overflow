@@ -11,6 +11,8 @@ import 'hammerjs';
 
 import { QuestionDetailComponent } from './question/question-detail.component';
 
+import { MomentModule } from 'angular2-moment';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { QuestionDetailComponent } from './question/question-detail.component';
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MomentModule
   ],
   providers: [],
   bootstrap: [AppComponent]

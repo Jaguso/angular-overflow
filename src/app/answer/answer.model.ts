@@ -1,4 +1,4 @@
-import {Question} from '../question/question.model';
+import { Question } from '../question/question.model';
 
 export class User {
   constructor(
